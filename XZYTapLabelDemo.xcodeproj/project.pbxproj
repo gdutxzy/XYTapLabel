@@ -15,6 +15,7 @@
 		0400A11F1D5DDC8500D50849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0400A11D1D5DDC8500D50849 /* LaunchScreen.storyboard */; };
 		0400A12A1D5DDC8500D50849 /* XZYTapLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400A1291D5DDC8500D50849 /* XZYTapLabelDemoTests.m */; };
 		0400A1351D5DDC8500D50849 /* XZYTapLabelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400A1341D5DDC8500D50849 /* XZYTapLabelDemoUITests.m */; };
+		0400A1471D5DDCE000D50849 /* XZYTapLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0400A1461D5DDCE000D50849 /* XZYTapLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		0400A1301D5DDC8500D50849 /* XZYTapLabelDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XZYTapLabelDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0400A1341D5DDC8500D50849 /* XZYTapLabelDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZYTapLabelDemoUITests.m; sourceTree = "<group>"; };
 		0400A1361D5DDC8500D50849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0400A1451D5DDCE000D50849 /* XZYTapLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZYTapLabel.h; sourceTree = "<group>"; };
+		0400A1461D5DDCE000D50849 /* XZYTapLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZYTapLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		0400A1031D5DDC8500D50849 = {
 			isa = PBXGroup;
 			children = (
+				0400A1441D5DDCC300D50849 /* XZYTapLabel */,
 				0400A10E1D5DDC8500D50849 /* XZYTapLabelDemo */,
 				0400A1281D5DDC8500D50849 /* XZYTapLabelDemoTests */,
 				0400A1331D5DDC8500D50849 /* XZYTapLabelDemoUITests */,
@@ -138,6 +142,15 @@
 				0400A1361D5DDC8500D50849 /* Info.plist */,
 			);
 			path = XZYTapLabelDemoUITests;
+			sourceTree = "<group>";
+		};
+		0400A1441D5DDCC300D50849 /* XZYTapLabel */ = {
+			isa = PBXGroup;
+			children = (
+				0400A1451D5DDCE000D50849 /* XZYTapLabel.h */,
+				0400A1461D5DDCE000D50849 /* XZYTapLabel.m */,
+			);
+			path = XZYTapLabel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0400A1471D5DDCE000D50849 /* XZYTapLabel.m in Sources */,
 				0400A1171D5DDC8500D50849 /* ViewController.m in Sources */,
 				0400A1141D5DDC8500D50849 /* AppDelegate.m in Sources */,
 				0400A1111D5DDC8500D50849 /* main.m in Sources */,
