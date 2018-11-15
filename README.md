@@ -1,3 +1,36 @@
+
+# XYTapLabel
+
+[![CI Status](https://img.shields.io/travis/gdutxzy/XYTapLabel.svg?style=flat)](https://travis-ci.org/gdutxzy/XYTapLabel)
+[![Version](https://img.shields.io/cocoapods/v/XYTapLabel.svg?style=flat)](https://cocoapods.org/pods/XYTapLabel)
+[![License](https://img.shields.io/cocoapods/l/XYTapLabel.svg?style=flat)](https://cocoapods.org/pods/XYTapLabel)
+[![Platform](https://img.shields.io/cocoapods/p/XYTapLabel.svg?style=flat)](https://cocoapods.org/pods/XYTapLabel)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+XYTapLabel is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'XYTapLabel'
+```
+
+## Author
+
+gdutxzy, xiezongyuan@xhg.com
+
+## License
+
+XYTapLabel is available under the MIT license. See the LICENSE file for more info.
+
+
+
 # XZYTapLabelDemo
 require :  >= ios7
 

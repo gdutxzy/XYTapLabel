@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XYTapLabel_Example' do
+  pod 'XYTapLabel', :path => '../'
+
+  target 'XYTapLabel_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

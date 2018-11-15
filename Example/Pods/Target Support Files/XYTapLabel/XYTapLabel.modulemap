@@ -1,0 +1,6 @@
+framework module XYTapLabel {
+  umbrella header "XYTapLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - XYTapLabel (0.1.0)
+
+DEPENDENCIES:
+  - XYTapLabel (from `../`)
+
+EXTERNAL SOURCES:
+  XYTapLabel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XYTapLabel: cbfc750a0b46e8fe63e6517c9fa9ef0ccbace05f
+
+PODFILE CHECKSUM: 814de8f04368add15082d6fa405c8506a889a7d9
+
+COCOAPODS: 1.5.3
