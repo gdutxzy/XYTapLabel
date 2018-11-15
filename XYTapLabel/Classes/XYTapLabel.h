@@ -27,9 +27,9 @@
 /// 清除之前设置的点击范围，为避免例如UITableViewCell的重用机制使点击范围无限增多
 - (void)cleanTapRange;
 /// 设置点击的范围，附件信息information不能为nil。 可重复调用此方法，用来增加点击的范围。
-- (void)addTapRange:(NSRange)range with:(NSObject *)information;
+- (void)addTapRange:(NSRange)range with:(nonnull NSObject *)information;
 /// 返回点击已设置的taprange，否则为nil
-- (NSString *)checkTapRangeWithPoint:(CGPoint)point;
+- (nullable NSString *)checkTapRangeWithPoint:(CGPoint)point;
 
 @property (weak,nonatomic) id<XYTapLabelDelegate> delegate;
 /// 触摸时的背景颜色

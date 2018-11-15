@@ -38,12 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1B3FAB9F6F8F25353415405A4989DC6E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		2F0C8583B2478F850D48EA9170381A4B /* Pods_XYTapLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XYTapLabel_Example.framework; path = "Pods-XYTapLabel_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B3FAB9F6F8F25353415405A4989DC6E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2F0C8583B2478F850D48EA9170381A4B /* Pods_XYTapLabel_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYTapLabel_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F3EE1814015B34E86E81A1354266907 /* Pods-XYTapLabel_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XYTapLabel_Tests-dummy.m"; sourceTree = "<group>"; };
 		2FF5970885CB374A4FE769006DBCA23E /* XYTapLabel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XYTapLabel.xcconfig; sourceTree = "<group>"; };
 		3C69286F4C847049E66E34619157FC05 /* XYTapLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XYTapLabel-umbrella.h"; sourceTree = "<group>"; };
-		3DF723246E1463FCF525902A14AD0A8B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3DF723246E1463FCF525902A14AD0A8B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		43225CB75CA740E985C5A4587DE70CC1 /* Pods-XYTapLabel_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XYTapLabel_Tests-resources.sh"; sourceTree = "<group>"; };
 		4A3CF80FD5DD306E16D7B0249452C8FF /* Pods-XYTapLabel_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XYTapLabel_Tests.modulemap"; sourceTree = "<group>"; };
 		56CF5672DEC1E1079DEAF8CB2D589CF7 /* Pods-XYTapLabel_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYTapLabel_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -54,16 +54,16 @@
 		6188DB510E00A86A1022AAE0DDC24EFC /* Pods-XYTapLabel_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XYTapLabel_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		628CBDF41FD0BB7E912E14B0735D2C66 /* XYTapLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XYTapLabel.m; path = XYTapLabel/Classes/XYTapLabel.m; sourceTree = "<group>"; };
 		66FBBB18EBE704E83DD39C9AFBA914CF /* Pods-XYTapLabel_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XYTapLabel_Tests-umbrella.h"; sourceTree = "<group>"; };
-		69349509C04033C28AEE68DE89FA503B /* XYTapLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = XYTapLabel.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		69349509C04033C28AEE68DE89FA503B /* XYTapLabel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = XYTapLabel.podspec; sourceTree = "<group>"; };
 		6C4A218F51F13019E1ECF3B28B7D6754 /* Pods-XYTapLabel_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYTapLabel_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		7046F5E0393D3868FD270F1C34FE5611 /* XYTapLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XYTapLabel-dummy.m"; sourceTree = "<group>"; };
-		855122357531F1F0FC4D7E81CA2F7DF0 /* XYTapLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XYTapLabel.framework; path = XYTapLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		855122357531F1F0FC4D7E81CA2F7DF0 /* XYTapLabel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XYTapLabel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90B3C0D9E1EBEF827B2CEEB8613545A3 /* Pods-XYTapLabel_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XYTapLabel_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9144F29B71300E7559E53292495ADFE5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1ED10FF6DB782BD59B50426E1DA37B1 /* Pods-XYTapLabel_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XYTapLabel_Example-resources.sh"; sourceTree = "<group>"; };
 		A9E4BFA08E291289A15F732291305C51 /* XYTapLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XYTapLabel.modulemap; sourceTree = "<group>"; };
-		AF56A63B0D9E45C38328731A6274CD8B /* Pods_XYTapLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XYTapLabel_Tests.framework; path = "Pods-XYTapLabel_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF56A63B0D9E45C38328731A6274CD8B /* Pods_XYTapLabel_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYTapLabel_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2E24DE7056067091AF4E1FC3F956A3C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE4B433A443C0E824EB0C7F59FC2C15F /* Pods-XYTapLabel_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XYTapLabel_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C13712A6F509A7AC63D6FE16F2C56BBA /* XYTapLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XYTapLabel.h; path = XYTapLabel/Classes/XYTapLabel.h; sourceTree = "<group>"; };

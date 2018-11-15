@@ -2,8 +2,8 @@
 //  XYViewController.h
 //  XYTapLabel
 //
-//  Created by gdutxzy on 11/15/2018.
-//  Copyright (c) 2018 gdutxzy. All rights reserved.
+//  Created by mac on 16/8/12.
+//  Copyright © 2016年 mac. All rights reserved.
 //
 
 @import UIKit;
