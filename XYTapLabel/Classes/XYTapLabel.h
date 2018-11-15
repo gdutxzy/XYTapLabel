@@ -8,13 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
+@class XYTapLabel;
 
 @protocol XYTapLabelDelegate <NSObject>
 @optional
 /// 当点击到指定位置时，会返回对应的information，否则返回nil
-- (void)XYTapLabelDidtapWith:(NSObject *)information;
+- (void)tapLabel:(XYTapLabel *)label didtapWith:(NSObject *)information;
 /// 触摸取消取消
-- (void)XYTapLabelDidCancelTouch;
+- (void)tapLabelDidCancelTouch:(XYTapLabel *)label;
 
 @end
 

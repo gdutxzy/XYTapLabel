@@ -58,8 +58,8 @@
     CGPoint point = [tap locationInView:self];
     NSString * key = [self checkTapRangeWithPoint:point];
     self.tempObject = key ? [self.tapRangeDic objectForKey:key] : nil;
-    if ([self.delegate respondsToSelector:@selector(XYTapLabelDidtapWith:)]) {
-        [self.delegate XYTapLabelDidtapWith:self.tempObject];
+    if ([self.delegate respondsToSelector:@selector(tapLabel:didtapWith:)]) {
+        [self.delegate tapLabel:self didtapWith:self.tempObject];
     }
     
 }
@@ -144,8 +144,8 @@
         self.attributedText = self.tempAttributeString;
         self.tempAttributeString = nil;
     }
-    if ([self.delegate respondsToSelector:@selector(XYTapLabelDidCancelTouch)]) {
-        [self.delegate XYTapLabelDidCancelTouch];
+    if ([self.delegate respondsToSelector:@selector(tapLabelDidCancelTouch:)]) {
+        [self.delegate tapLabelDidCancelTouch:self];
     }
 }
 
@@ -158,8 +158,8 @@
         self.attributedText = self.tempAttributeString;
         self.tempAttributeString = nil;
     }
-    if ([self.delegate respondsToSelector:@selector(XYTapLabelDidCancelTouch)]) {
-        [self.delegate XYTapLabelDidCancelTouch];
+    if ([self.delegate respondsToSelector:@selector(tapLabelDidCancelTouch:)]) {
+        [self.delegate tapLabelDidCancelTouch:self];
     }
 }
 - (void)cleanTapRange{

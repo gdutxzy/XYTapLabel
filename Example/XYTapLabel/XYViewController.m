@@ -58,11 +58,11 @@
 
 
 //这里其实是 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
-- (void)XZYTapLabelDidCancelTouch{
+- (void)tapLabelDidCancelTouch:(XYTapLabel *)label{
     NSLog(@"任何手势都已经完毕或取消”");
 }
 
-- (void)XZYTapLabelDidtapWith:(NSObject *)information{
+- (void)tapLabel:(XYTapLabel *)label didtapWith:(NSObject *)information{
     if (information) {
         NSLog(@"点击了%@",information);
     }else{
